@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:saint_school/settings.dart';
 
 import 'add_student.dart';
 import 'idcard_screen.dart';
@@ -19,7 +20,9 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Roboto',
         primarySwatch: Colors.red,
       ),
-      home: const AddStudent(),
+      home: Settings(),
+      // Notification(),
+      // AddStudent(),
       debugShowCheckedModeBanner: false,
     );
   }
